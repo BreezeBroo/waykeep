@@ -5,7 +5,8 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="theme-color" content="#f4f4f4">
 	<title>ᴡᴀʏᴋᴇᴇᴘ - ʀᴏᴜᴛᴇ ʟɪʙʀᴀʀʏ</title>
-	<link rel="icon" type="image/x-icon" href="./favicon.ico">
+	<link rel="icon" type="image/png" sizes="180x180" href="./apple-touch-icon.png">
+	<link rel="icon" type="image/x-icon" sizes="16x16 32x32" href="./favicon.ico">
 	<link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -215,7 +216,7 @@
 			animation: header-enter .65s cubic-bezier(.2,.75,.25,1) both;
 		}
 		.brand { display: flex; align-items: center; gap: 11px; font-weight: 700; letter-spacing: .02em; }
-		.brand-mark { display: block; width: 27px; height: 27px; flex: none; border-radius: 7px; object-fit: cover; background: #000; transition: transform .35s cubic-bezier(.2,.75,.25,1), box-shadow .35s ease; }
+		.brand-mark { display: block; width: 27px; height: 27px; flex: none; border-radius: 7px; object-fit: cover; background: #000; outline: 1px solid #fff; outline-offset: 1px; transition: transform .35s cubic-bezier(.2,.75,.25,1), box-shadow .35s ease; }
 		.brand:hover .brand-mark { transform: rotate(-8deg) scale(1.08); box-shadow: 0 4px 14px #0004; }
 		.brand img[src^="data:"], .brand svg.brand-mark { display: none; }
 		.brand-name { font: 700 18px/27px; letter-spacing: .07em; }
